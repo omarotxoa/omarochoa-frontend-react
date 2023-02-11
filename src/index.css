@@ -11,3 +11,10 @@ body {
   font-family: 'Inter', sans-serif;
   color: var(--white);
 }
+
+@media (min-width: 800px) {
+  body {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
