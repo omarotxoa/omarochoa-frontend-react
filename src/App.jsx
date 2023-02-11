@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Tools from "./components/Tools";
 import Experience from "./components/Experience";
+import WorkPhilosophy from "./components/WorkPhilosophy";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Tools />
       <Experience />
+      <WorkPhilosophy />
     </>
   )
 }
