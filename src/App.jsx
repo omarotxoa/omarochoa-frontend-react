@@ -4,6 +4,7 @@ import Tools from "./components/Tools";
 import Experience from "./components/Experience";
 import WorkPhilosophy from "./components/WorkPhilosophy";
 import SelectedWorks from "./components/SelectedWorks";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Experience />
       <WorkPhilosophy />
       <SelectedWorks />
+      <Contact />
     </>
   )
 }
