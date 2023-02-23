@@ -1,9 +1,7 @@
-import classes from './Nav.module.css';
-
 function Nav() {
   return(
     <nav>
-      <a href="#">Portfolio</a>
+      <a href="#" class="active">Portfolio</a>
       <a href="#">CV</a>
       <a href="#">Contact</a>
     </nav>

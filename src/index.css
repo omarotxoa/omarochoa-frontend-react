@@ -2,6 +2,7 @@
 
 :root {
   --green: #202615;
+  --linkgreen: #8EA18D;
   --lime: #82EB86;
   --white: #fff;
 }
@@ -17,4 +18,25 @@ body {
     width: 700px;
     margin: 0 auto;
   }
+}
+
+/************************************************* NAV */
+nav {
+  padding-block: 1em;
+}
+
+nav a {
+  color: var(--linkgreen);
+  padding-inline-end: 1.5em;
+  text-decoration: none;
+  transition: 200ms all ease-in;
+}
+
+nav a:hover {
+  color: var(--lime);  
+}
+
+nav a.active {
+  border-left: 3px solid var(--lime);
+  padding-inline-start: .25em;
 }
